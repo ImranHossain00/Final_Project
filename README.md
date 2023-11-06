@@ -1,5 +1,5 @@
 # Final_Project
-Author Name:
+Authors Name:
 </br>
 |   # |              Name             | Links of GitHub                        |
 |-----|-------------------------------|----------------------------------------|
