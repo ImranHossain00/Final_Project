@@ -2,11 +2,11 @@
 
 Authors Name:
 </br>
-|   # |              Name             | Links of GitHub                        |
-|-----|-------------------------------|----------------------------------------|
-|   1 | Rafue                         | https://github.com/TanvirRafue         |
-|   2 | Shovon                        | https://github.com/MohammadShovon96    |
-|   3 | Imran                         | https://github.com/ImranHossain00      |
+|   # |              Name             | Links of GitHub                                        | 
+|-----|-------------------------------|--------------------------------------------------------|
+|   1 | Rafue                         | [Tanvir Rafue](https://github.com/TanvirRafue)         |
+|   2 | Shovon                        | [Mohammad Shovon](https://github.com/MohammadShovon96) |
+|   3 | Imran                         | [Imran Hossain](https://github.com/ImranHossain00)     |
 
 ## Introduction:
 In today's digital world, shopping online has changed the way businesses work and how we buy things. As more people make online shopping a part of their daily lives, there's a growing need for websites that make the experience easy and enjoyable.
