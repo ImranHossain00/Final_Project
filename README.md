@@ -1,4 +1,5 @@
 # Final_Project
+
 Authors Name:
 </br>
 |   # |              Name             | Links of GitHub                        |
@@ -8,14 +9,19 @@ Authors Name:
 |   3 | Imran                         | https://github.com/ImranHossain00      |
 
 </br>
-##Introduction:
+
+## Introduction:
+
     <p>In today's digital world, shopping online has changed the way businesses work and how we buy things. As more people make online shopping a part of their daily lives, there's a growing need for websites that make the experience easy and enjoyable.
         So, we're introducing [Your E-Commerce Platform Name]! It's like a big online marketplace where you can find all sorts of products. Our goal is to make buying and selling online simple and effective. For shoppers, it means finding what you want easily, and for sellers, it means having a great place to showcase and sell your products.
         Think of it as a one-stop-shop where you can explore a variety of products and where sellers have cool tools to manage their shops. We want it to be a friendly and helpful place for everyone – whether you're looking for something special or you're a business wanting to reach more customers.
-        In a nutshell, [Your E-Commerce Platform Name] is all about making online shopping fun, straightforward, and beneficial for everyone involved!</p>
+        In a nutshell, [Your E-Commerce Platform Name] is all about making online shopping fun, straightforward, and beneficial for everyone involved!
+        </p>
 
-    <h2>Scope:</h2>
-    <h3>Users and Their roles:</h3>
+    ### Scope:
+    
+    #### Users and Their roles:
+    
     <p>In this project, users play pivotal roles within a dynamic and collaborative educational ecosystem. The following are the key user roles and their corresponding functions:</p>
 
     <h3>Student Users:</h3>
@@ -40,15 +46,15 @@ Authors Name:
     </ul>
 
 
-##Use cases and features:
+## Use cases and features:
 
 <ul>
     <li>
-        <b>User Registration and Login:</b> The platform will provide a secure and user-friendly registration process, allowing students to create accounts and log in with authentication measures to ensure a personalized and secure experience.
+         <b>User Registration and Login:</b> The platform will provide a secure and user-friendly registration process, allowing students to create accounts and log in with authentication measures to ensure a personalized and secure experience.
     </li>
 </br>
     <li>
-        <b>Product Buy:</b> .
+        <b>Product Buy:</b>
     </li>
 <br>
     <li>
