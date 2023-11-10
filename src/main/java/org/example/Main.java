@@ -1,4 +1,4 @@
-package com.sir.tech.bd;
+package org.example;
 
 public class Main {
     public static void main(String[] args) {
