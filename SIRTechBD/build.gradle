@@ -1,9 +1,8 @@
 plugins {
     id 'java'
-    id 'war'
 }
 
-group = 'com.sir.tech.bd'
+group = 'org.example'
 version = '1.0-SNAPSHOT'
 
 sourceCompatibility = 17
