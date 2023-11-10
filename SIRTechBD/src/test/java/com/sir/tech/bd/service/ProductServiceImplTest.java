@@ -1,7 +1,5 @@
 package com.sir.tech.bd.service;
 
-import com.imran.eshoppers.domain.Product;
-import com.imran.eshoppers.repository.ProductRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
