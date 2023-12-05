@@ -1,15 +1,15 @@
 package com.sir.tech.bd.domain;
 
-public class UserCustomer extends Domain{
+public class User extends Domain{
     private String username;
     private String password;
-    private String fullName;
+    private String firstName;
     private String lastName;
     private Long contactAddressId;
     private String email;
     private final Integer isAdmin = 0;
 
-    public UserCustomer() {}
+    public User() {}
 
     public String getUsername() {
         return username;
@@ -27,12 +27,12 @@ public class UserCustomer extends Domain{
         this.password = password;
     }
 
-    public String getFullName() {
-        return fullName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void setFirstame(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {

@@ -1,9 +1,5 @@
 package com.sir.tech.bd.web;
 
-import com.sir.tech.bd.domain.UserCustomer;
-import com.sir.tech.bd.dto.UserSignupDTO;
-import com.sir.tech.bd.util.ValidationUtil;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

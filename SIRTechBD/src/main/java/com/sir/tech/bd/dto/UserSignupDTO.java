@@ -1,8 +1,15 @@
 package com.sir.tech.bd.dto;
 
+import com.sir.tech.bd.annotations.PasswordEqual;
+
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+@PasswordEqual(
+        first = "password",
+        second = "confirmPassword",
+        message = "Password don't match !"
+)
 public class UserSignupDTO {
     @NotEmpty
     @Size(min = 4, max = 20)

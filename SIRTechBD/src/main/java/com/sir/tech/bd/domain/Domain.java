@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public abstract class Domain {
     private Long id;
-    private Long version;
+    private Long version = 0L;
     private LocalDateTime date_created
             = LocalDateTime.now();
     private LocalDateTime date_last_updated

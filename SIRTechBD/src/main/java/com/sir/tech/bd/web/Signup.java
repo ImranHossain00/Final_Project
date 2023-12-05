@@ -1,6 +1,9 @@
 package com.sir.tech.bd.web;
 
 import com.sir.tech.bd.dto.UserSignupDTO;
+import com.sir.tech.bd.repository.JdbcUserCustomerRepoImpl;
+import com.sir.tech.bd.service.UserCustomerService;
+import com.sir.tech.bd.service.UserCustomerServiceImpl;
 import com.sir.tech.bd.util.ValidationUtil;
 
 import javax.servlet.RequestDispatcher;
@@ -13,6 +16,9 @@ import java.io.IOException;
 
 @WebServlet("/signup")
 public class Signup extends HttpServlet {
+
+    UserCustomerService userCustomerService
+            = new UserCustomerServiceImpl(new JdbcUserCustomerRepoImpl());
 
     @Override
     protected void doGet(HttpServletRequest req,
@@ -28,9 +34,15 @@ public class Signup extends HttpServlet {
 
         UserSignupDTO userSignupDTO = Copy(req);
         var errors = ValidationUtil.getInstance().validate(userSignupDTO);
-        if (errors.isEmpty()) {
+        if (!userCustomerService.isUserNameUnique(userSignupDTO.getUsername())) {
+            errors.put("username", "Username is already taken");
+        } else if (!userCustomerService.isEmailUnique(userSignupDTO.getEmail())) {
+            errors.put("email", "Email is already taken");
+        } else if (errors.isEmpty()){
+            userCustomerService.saveUser(userSignupDTO);
             resp.sendRedirect("/home");
-        } else {
+        }
+        if (!errors.isEmpty()) {
             req.setAttribute("errors", errors);
             req.setAttribute("userSignupDTO", userSignupDTO);
             req.getRequestDispatcher("/WEB-INF/signup.jsp")
